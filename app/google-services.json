@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "445198275569",
+    "project_id": "cinepulse-515fd",
+    "storage_bucket": "cinepulse-515fd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445198275569:android:9fe0aecd28ad2afc272a50",
+        "android_client_info": {
+          "package_name": "com.cinepulse.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4dhpYKCYMyLpTzT9xpwO5yUuWsIrOFWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
