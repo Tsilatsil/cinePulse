@@ -117,4 +117,21 @@ class HomeViewModelTest {
         assertEquals(1, state.searchResults.size)
         assertEquals("Inception", state.searchResults[0].title)
     }
+
+    @Test
+    fun testSearchQuery_ShortQuery() = runTest(testDispatcher) {
+        println("[TEST LOG] Starting testSearchQuery_ShortQuery")
+        viewModel = HomeViewModel(fakeApi)
+        advanceUntilIdle()
+
+        viewModel.onQuery("I")
+        advanceUntilIdle()
+
+        val state = viewModel.state.value
+        println("[TEST LOG] State after short search: query=${state.query}, searchResultsCount=${state.searchResults.size}")
+
+        assertEquals("I", state.query)
+        assertTrue(state.searchResults.isEmpty())
+    }
 }
+
