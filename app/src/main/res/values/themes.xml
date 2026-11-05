@@ -1,9 +1,23 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.CinePulse" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Theme.CinePulse" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/cp_primary</item>
+        <item name="colorOnPrimary">@color/cp_on_primary</item>
+        <item name="colorPrimaryContainer">@color/cp_surface_alt</item>
+        <item name="colorOnPrimaryContainer">@color/cp_text</item>
+        <item name="colorSecondary">@color/cp_accent</item>
+        <item name="colorOnSecondary">@color/cp_on_accent</item>
+        <item name="colorSurface">@color/cp_surface</item>
+        <item name="colorOnSurface">@color/cp_text</item>
+        <item name="colorSurfaceVariant">@color/cp_surface_alt</item>
+        <item name="colorOnSurfaceVariant">@color/cp_text_dim</item>
+        <item name="colorOutline">@color/cp_outline</item>
+        <item name="colorError">@color/cp_error</item>
+        <item name="android:colorBackground">@color/cp_bg</item>
+        <item name="android:windowBackground">@color/cp_bg</item>
+        <item name="android:statusBarColor">@color/cp_bg</item>
+        <item name="android:navigationBarColor">@color/cp_bg</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">@bool/cp_light_status</item>
+        <item name="colorSecondaryContainer">@color/cp_container</item>
+        <item name="colorOnSecondaryContainer">@color/cp_text</item>
     </style>
-
-    <style name="Theme.CinePulse" parent="Base.Theme.CinePulse" />
 </resources>

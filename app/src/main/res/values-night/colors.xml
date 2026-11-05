@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CinePulse palette: DARK mode -->
+    <color name="cp_bg">#0E0A18</color>
+    <color name="cp_surface">#1A1428</color>
+    <color name="cp_surface_alt">#261E3A</color>
+    <color name="cp_primary">#9B7BFF</color>
+    <color name="cp_on_primary">#12082E</color>
+    <color name="cp_accent">#FFC83D</color>
+    <color name="cp_on_accent">#1B1530</color>
+    <color name="cp_text">#F2EEFF</color>
+    <color name="cp_text_dim">#A79FC2</color>
+    <color name="cp_outline">#3A3052</color>
+    <color name="cp_error">#FF6B6B</color>
+    <color name="cp_success">#4CD18A</color>
+    <color name="cp_offline_bg">#4A3510</color>
+    <color name="cp_offline_text">#FFD08A</color>
+    <color name="cp_container">#3A2D6E</color>
+</resources>

@@ -1,0 +1,161 @@
+<resources>
+    <!-- Navigation -->
+    <string name="nav_home">Tuis</string>
+    <string name="nav_trending">Gewild</string>
+    <string name="nav_watchlist">Kyklys</string>
+    <string name="nav_profile">Profiel</string>
+
+    <!-- Login / Register -->
+    <string name="login_tagline">Hou by. Gradeer. Beveel aan.</string>
+    <string name="login_title">Welkom terug</string>
+    <string name="register_title">Skep jou rekening</string>
+    <string name="hint_username">Gebruikersnaam</string>
+    <string name="hint_email">E-pos</string>
+    <string name="hint_password">Wagwoord</string>
+    <string name="btn_login">Teken in</string>
+    <string name="btn_register">Registreer</string>
+    <string name="toggle_to_register">Nuut hier? Skep ’n rekening</string>
+    <string name="toggle_to_login">Het jy reeds ’n rekening? Teken in</string>
+    <string name="or_divider">of</string>
+    <string name="btn_google">Gaan voort met Google</string>
+    <string name="err_name_short">Voer ’n gebruikersnaam in (minstens 2 karakters)</string>
+    <string name="err_email_invalid">Voer ’n geldige e-posadres in</string>
+    <string name="err_password_short">Wagwoord moet minstens 6 karakters wees</string>
+    <string name="err_network">Geen internetverbinding nie. Koppel asseblief en probeer weer.</string>
+    <string name="err_invalid_credentials">Verkeerde e-pos of wagwoord</string>
+    <string name="err_user_exists">’n Rekening met hierdie e-pos bestaan reeds</string>
+    <string name="err_generic">Iets het verkeerd gegaan. Probeer asseblief weer.</string>
+    <string name="err_google_failed">Google-aanmelding het misluk. Probeer asseblief weer.</string>
+    <string name="err_google_config">Google-aanmelding is nie opgestel vir hierdie weergawe nie (kontroleer die SHA-1 in Firebase).</string>
+
+    <!-- Common -->
+    <string name="type_movie">Fliek</string>
+    <string name="type_series">Reeks</string>
+    <string name="offline_banner">Jy is vanlyn – gestoorde data word gewys. Veranderinge sinkroniseer wanneer jy weer koppel.</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="see_all">Sien alles</string>
+    <string name="empty_list">Niks om nou te wys nie. Trek af om te herlaai.</string>
+    <string name="cd_back">Terug</string>
+    <string name="cd_send">Stuur kommentaar</string>
+    <string name="saved_offline">Op jou foon gestoor. Dit sinkroniseer wanneer jy weer aanlyn is.</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Hallo, %1$s 👋</string>
+    <string name="home_subtitle">Wat kyk ons vandag?</string>
+    <string name="points_chip">⭐ %1$d punte</string>
+    <string name="search_hint">Soek flieks en reekse</string>
+    <string name="home_trending_today">Vandag gewild</string>
+    <string name="home_top_movies">Topgraderde flieks</string>
+    <string name="home_top_series">Topgraderde reekse</string>
+    <string name="home_popular">Nou gewild</string>
+    <string name="home_community">Gemeenskapskeuses</string>
+    <string name="home_because">Omdat jy %1$s gekyk het</string>
+    <string name="by_user">deur %1$s</string>
+
+    <!-- Trending -->
+    <string name="trending_title">Nou gewild</string>
+    <string name="chip_today">Vandag</string>
+    <string name="chip_week">Hierdie week</string>
+    <string name="chip_all">Almal</string>
+    <string name="chip_movies">Flieks</string>
+    <string name="chip_series">Reekse</string>
+    <string name="trending_cached">Gestoorde resultate word gewys (vanlyn)</string>
+
+    <!-- Watchlist -->
+    <string name="watchlist_title">My kyklys</string>
+    <string name="watchlist_progress">%1$d van %2$d gekyk</string>
+    <string name="watchlist_reward_hint">Voltooi jou hele kyklys om ’n bonus en ’n nuwe lys gewilde en soortgelyke titels te verdien!</string>
+    <string name="watchlist_empty_title">Jou kyklys is leeg</string>
+    <string name="watchlist_empty_body">Voeg flieks en reekse by wat jy wil kyk.</string>
+    <string name="btn_discover">Ontdek titels</string>
+    <string name="btn_mark_watched">Merk as gekyk</string>
+    <string name="btn_watched">Gekyk</string>
+    <string name="btn_remove">Verwyder</string>
+    <string name="remove_confirm">Verwyder \"%1$s\" van jou kyklys?</string>
+    <string name="waiting_sync">⏳ Wag vir sinkronisering</string>
+    <string name="toast_points">+%1$d punte!</string>
+    <string name="toast_added_watchlist">By jou kyklys gevoeg</string>
+    <string name="toast_removed_watchlist">Van jou kyklys verwyder</string>
+
+    <!-- Rewards -->
+    <string name="reward_title">🎉 Kyklys voltooi!</string>
+    <string name="reward_body">Jy het %1$d punte verdien en jou kyklys is met %2$d nuwe titels herlaai:</string>
+    <string name="reward_body_none">Jy het %1$d punte verdien! Voeg meer titels by om ’n nuwe kyklys te begin.</string>
+    <string name="reward_body_offline">Jy het %1$d punte verdien! Jou nuwe kyklys word geskep sodra jy weer aanlyn is.</string>
+    <string name="reward_ok">Pragtig!</string>
+    <string name="level_0">Beginner</string>
+    <string name="level_1">Fliekaanhanger</string>
+    <string name="level_2">Filmkenner</string>
+    <string name="level_3">Kritikus</string>
+    <string name="level_4">Sinefiel</string>
+    <string name="notif_reward_title">Jou nuwe kyklys is gereed 🎬</string>
+    <string name="notif_reward_body">%1$d nuwe titels is bygevoeg gebaseer op wat jy gekyk het.</string>
+
+    <!-- Movie detail -->
+    <string name="btn_add_watchlist">Voeg by kyklys</string>
+    <string name="btn_remove_watchlist">Verwyder van kyklys</string>
+    <string name="btn_recommend">Beveel aan by ander</string>
+    <string name="your_rating">Jou gradering</string>
+    <string name="tmdb_rating">TMDB-gradering: %1$.1f / 10</string>
+    <string name="community_rating">CinePulse-gemeenskap: %1$.1f ★ (%2$d graderings)</string>
+    <string name="community_none">CinePulse-gemeenskap: nog geen graderings nie – wees die eerste!</string>
+    <string name="community_offline">CinePulse-gemeenskap: nie vanlyn beskikbaar nie</string>
+    <string name="comments_title">Kommentaar</string>
+    <string name="comment_hint">Skryf ’n kommentaar…</string>
+    <string name="no_comments">Nog geen kommentaar nie. Begin die gesprek!</string>
+    <string name="comment_pending">⏳ Wag om te plaas</string>
+    <string name="err_comment_empty">Skryf eers iets</string>
+    <string name="no_overview">Geen beskrywing beskikbaar nie.</string>
+    <string name="toast_rating_updated">Gradering opgedateer</string>
+    <string name="recommend_title">Beveel \"%1$s\" aan</string>
+    <string name="recommend_note_hint">Hoekom moet ander dit kyk? (opsioneel)</string>
+    <string name="recommend_btn">Beveel aan</string>
+    <string name="toast_recommended">Aanbeveel! +%1$d punte</string>
+
+    <!-- Search -->
+    <string name="search_prompt">Soek vir ’n fliek of reeks</string>
+    <string name="err_query_short">Tik ten minste 2 karakters</string>
+    <string name="search_empty">Geen resultate gevind nie. Probeer ’n ander titel.</string>
+    <string name="search_offline">Soek benodig ’n internetverbinding.</string>
+
+    <!-- Profile -->
+    <string name="profile_points_total">%1$d punte</string>
+    <string name="profile_next_level">Nog %1$d punte om %2$s te bereik</string>
+    <string name="profile_max_level">Jy het die hoogste vlak bereik – legende!</string>
+    <string name="profile_stat_watched">Gekyk</string>
+    <string name="profile_stat_watchlist">In kyklys</string>
+    <string name="profile_stat_points">Punte</string>
+    <string name="profile_earn_title">Hoe om punte te verdien</string>
+    <string name="profile_earn_body">⭐ Gradeer ’n titel: +5\n💬 Skryf ’n kommentaar: +10\n👍 Beveel ’n titel aan: +15\n✅ Merk as gekyk: +10\n🏆 Voltooi jou kyklys: +50 en ’n nuwe lys!</string>
+    <string name="btn_settings">Instellings</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Instellings</string>
+    <string name="settings_appearance">Voorkoms</string>
+    <string name="settings_dark_mode">Donker modus</string>
+    <string name="settings_language">Taal</string>
+    <string name="settings_notifications">Kennisgewings</string>
+    <string name="settings_notifications_desc">Wys waarskuwings vir aanbevelings en belonings</string>
+    <string name="settings_sync">Vanlyn-sinkronisering</string>
+    <string name="settings_sync_now">Sinkroniseer nou</string>
+    <string name="settings_sync_clean">Alles is gesinkroniseer</string>
+    <string name="settings_sync_pending">%1$d verandering(s) wag om te sinkroniseer</string>
+    <string name="settings_sync_offline">Vanlyn – %1$d verandering(s) op hierdie foon gestoor</string>
+    <string name="sync_done_toast">Weer aanlyn – %1$d verandering(s) gesinkroniseer</string>
+    <string name="sync_nothing">Reeds op datum</string>
+    <string name="settings_push">Stootkennisgewings</string>
+    <string name="settings_push_desc">Jou toestelteken (gebruik dit om ’n toetsboodskap vanaf die Firebase-konsole te stuur)</string>
+    <string name="settings_copy_token">Kopieer teken</string>
+    <string name="settings_token_copied">Teken gekopieer</string>
+    <string name="settings_token_loading">Laai teken…</string>
+    <string name="settings_token_unavailable">Teken nie beskikbaar nie (kontroleer jou internetverbinding)</string>
+    <string name="settings_account">Rekening</string>
+    <string name="btn_logout">Teken uit</string>
+    <string name="logout_unsynced">Jy het %1$d ongesinkroniseerde verandering(s). Dit sal oplaai die volgende keer wat jy aanlyn aanmeld. Teken tog uit?</string>
+    <string name="settings_version">Weergawe %1$s</string>
+
+    <!-- Notifications -->
+    <string name="channel_name">CinePulse-opdaterings</string>
+    <string name="channel_desc">Aanbevelings, belonings en aankondigings</string>
+    <string name="notif_new_rec_title">%1$s beveel ’n titel aan</string>
+</resources>

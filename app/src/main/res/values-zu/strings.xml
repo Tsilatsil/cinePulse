@@ -1,0 +1,161 @@
+<resources>
+    <!-- Navigation -->
+    <string name="nav_home">Ikhaya</string>
+    <string name="nav_trending">Okuthandwayo</string>
+    <string name="nav_watchlist">Uhlu lokubukela</string>
+    <string name="nav_profile">Iphrofayela</string>
+
+    <!-- Login / Register -->
+    <string name="login_tagline">Landelela. Linganisa. Incoma.</string>
+    <string name="login_title">Siyakwamukela futhi</string>
+    <string name="register_title">Dala i-akhawunti yakho</string>
+    <string name="hint_username">Igama lomsebenzisi</string>
+    <string name="hint_email">I-imeyili</string>
+    <string name="hint_password">Iphasiwedi</string>
+    <string name="btn_login">Ngena</string>
+    <string name="btn_register">Bhalisa</string>
+    <string name="toggle_to_register">Umusha lapha? Dala i-akhawunti</string>
+    <string name="toggle_to_login">Usunayo i-akhawunti? Ngena</string>
+    <string name="or_divider">noma</string>
+    <string name="btn_google">Qhubeka nge-Google</string>
+    <string name="err_name_short">Faka igama lomsebenzisi (okungenani izinhlamvu ezi-2)</string>
+    <string name="err_email_invalid">Faka ikheli le-imeyili elivumelekile</string>
+    <string name="err_password_short">Iphasiwedi kufanele ibe okungenani nezinhlamvu ezingu-6</string>
+    <string name="err_network">Alukho uxhumo lwe-inthanethi. Sicela uxhume bese uzama futhi.</string>
+    <string name="err_invalid_credentials">I-imeyili noma iphasiwedi akulungile</string>
+    <string name="err_user_exists">I-akhawunti ene-imeyili le seyikhona</string>
+    <string name="err_generic">Kukhona okungahambanga kahle. Sicela uzame futhi.</string>
+    <string name="err_google_failed">Ukungena nge-Google kuhlulekile. Sicela uzame futhi.</string>
+    <string name="err_google_config">Ukungena nge-Google akulungiselwe lolu hlelo (hlola i-SHA-1 ku-Firebase).</string>
+
+    <!-- Common -->
+    <string name="type_movie">Ifilimu</string>
+    <string name="type_series">Uchungechunge</string>
+    <string name="offline_banner">Awuxhumile – kuboniswa imininingwane egciniwe. Izinguquko zizovumelanisa uma uphinde uxhume.</string>
+    <string name="cancel">Khansela</string>
+    <string name="see_all">Buka konke</string>
+    <string name="empty_list">Akukho okuboniswayo okwamanje. Donsela phansi ukuvuselela.</string>
+    <string name="cd_back">Emuva</string>
+    <string name="cd_send">Thumela umbono</string>
+    <string name="saved_offline">Kugcinwe efonini yakho. Kuzovumelanisa uma uphinde uxhume.</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Sawubona, %1$s 👋</string>
+    <string name="home_subtitle">Siyobukela ini namuhla?</string>
+    <string name="points_chip">⭐ amaphuzu angu-%1$d</string>
+    <string name="search_hint">Sesha amafilimu nochungechunge</string>
+    <string name="home_trending_today">Okuthandwayo namuhla</string>
+    <string name="home_top_movies">Amafilimu anezinga eliphezulu</string>
+    <string name="home_top_series">Uchungechunge olunezinga eliphezulu</string>
+    <string name="home_popular">Okuthandwayo manje</string>
+    <string name="home_community">Okukhethwe umphakathi</string>
+    <string name="home_because">Ngoba ubukele %1$s</string>
+    <string name="by_user">ngu-%1$s</string>
+
+    <!-- Trending -->
+    <string name="trending_title">Okuthandwayo manje</string>
+    <string name="chip_today">Namuhla</string>
+    <string name="chip_week">Kuleli sonto</string>
+    <string name="chip_all">Konke</string>
+    <string name="chip_movies">Amafilimu</string>
+    <string name="chip_series">Uchungechunge</string>
+    <string name="trending_cached">Kuboniswa imiphumela egciniwe (awuxhumile)</string>
+
+    <!-- Watchlist -->
+    <string name="watchlist_title">Uhlu lwami lokubukela</string>
+    <string name="watchlist_progress">Kubukiwe okungu-%1$d kwangu-%2$d</string>
+    <string name="watchlist_reward_hint">Qedela wonke uhlu lwakho lokubukela ukuze uthole umklomelo kanye nohlu olusha lwezihloko ezithandwayo nezifanayo!</string>
+    <string name="watchlist_empty_title">Uhlu lwakho lokubukela lungenalutho</string>
+    <string name="watchlist_empty_body">Engeza amafilimu nochungechunge ofuna ukubukela.</string>
+    <string name="btn_discover">Thola izihloko</string>
+    <string name="btn_mark_watched">Maka njengokubukiwe</string>
+    <string name="btn_watched">Kubukiwe</string>
+    <string name="btn_remove">Susa</string>
+    <string name="remove_confirm">Susa \"%1$s\" ohlwini lwakho lokubukela?</string>
+    <string name="waiting_sync">⏳ Kulindele ukuvumelanisa</string>
+    <string name="toast_points">+amaphuzu angu-%1$d!</string>
+    <string name="toast_added_watchlist">Kungeziwe ohlwini lwakho lokubukela</string>
+    <string name="toast_removed_watchlist">Kususiwe ohlwini lwakho lokubukela</string>
+
+    <!-- Rewards -->
+    <string name="reward_title">🎉 Uhlu lokubukela seluphelile!</string>
+    <string name="reward_body">Uthole amaphuzu angu-%1$d futhi uhlu lwakho lokubukela luvuselelwe ngezihloko ezintsha ezingu-%2$d:</string>
+    <string name="reward_body_none">Uthole amaphuzu angu-%1$d! Engeza izihloko eziningi ukuze uqale uhlu olusha.</string>
+    <string name="reward_body_offline">Uthole amaphuzu angu-%1$d! Uhlu lwakho olusha luzakhiwa ngokushesha uma uphinde uxhume.</string>
+    <string name="reward_ok">Kuhle kakhulu!</string>
+    <string name="level_0">Umqalayo</string>
+    <string name="level_1">Umthandi wamafilimu</string>
+    <string name="level_2">Isazi samafilimu</string>
+    <string name="level_3">Umhlaziyi</string>
+    <string name="level_4">Uchwepheshe wamafilimu</string>
+    <string name="notif_reward_title">Uhlu lwakho olusha selulungile 🎬</string>
+    <string name="notif_reward_body">Izihloko ezintsha ezingu-%1$d zengeziwe ngokuya ngalokho obukile.</string>
+
+    <!-- Movie detail -->
+    <string name="btn_add_watchlist">Engeza ohlwini lokubukela</string>
+    <string name="btn_remove_watchlist">Susa ohlwini lokubukela</string>
+    <string name="btn_recommend">Incoma kwabanye</string>
+    <string name="your_rating">Izinga lakho</string>
+    <string name="tmdb_rating">Izinga le-TMDB: %1$.1f / 10</string>
+    <string name="community_rating">Umphakathi we-CinePulse: %1$.1f ★ (amazinga angu-%2$d)</string>
+    <string name="community_none">Umphakathi we-CinePulse: akukho mazinga okwamanje – yiba owokuqala!</string>
+    <string name="community_offline">Umphakathi we-CinePulse: awutholakali ungaxhumile</string>
+    <string name="comments_title">Imibono</string>
+    <string name="comment_hint">Bhala umbono…</string>
+    <string name="no_comments">Ayikho imibono okwamanje. Qala ingxoxo!</string>
+    <string name="comment_pending">⏳ Kulindele ukuthunyelwa</string>
+    <string name="err_comment_empty">Bhala okuthile kuqala</string>
+    <string name="no_overview">Alukho incazelo etholakalayo.</string>
+    <string name="toast_rating_updated">Izinga livuselelwe</string>
+    <string name="recommend_title">Incoma \"%1$s\"</string>
+    <string name="recommend_note_hint">Kungani abanye kufanele bakubukele? (kuyazikhethela)</string>
+    <string name="recommend_btn">Incoma</string>
+    <string name="toast_recommended">Kuncomiwe! +amaphuzu angu-%1$d</string>
+
+    <!-- Search -->
+    <string name="search_prompt">Sesha ifilimu noma uchungechunge</string>
+    <string name="err_query_short">Bhala okungenani izinhlamvu ezi-2</string>
+    <string name="search_empty">Ayikho imiphumela etholakele. Zama esinye isihloko.</string>
+    <string name="search_offline">Ukusesha kudinga uxhumo lwe-inthanethi.</string>
+
+    <!-- Profile -->
+    <string name="profile_points_total">amaphuzu angu-%1$d</string>
+    <string name="profile_next_level">Asadingeka amaphuzu angu-%1$d ukuze ufinyelele ezingeni elithi %2$s</string>
+    <string name="profile_max_level">Ufinyelele ezingeni eliphezulu – yiqhawe!</string>
+    <string name="profile_stat_watched">Kubukiwe</string>
+    <string name="profile_stat_watchlist">Ohlwini</string>
+    <string name="profile_stat_points">Amaphuzu</string>
+    <string name="profile_earn_title">Indlela yokuthola amaphuzu</string>
+    <string name="profile_earn_body">⭐ Linganisa isihloko: +5\n💬 Bhala umbono: +10\n👍 Incoma isihloko: +15\n✅ Maka njengokubukiwe: +10\n🏆 Qedela uhlu lwakho lokubukela: +50 kanye nohlu olusha!</string>
+    <string name="btn_settings">Izilungiselelo</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Izilungiselelo</string>
+    <string name="settings_appearance">Ukubukeka</string>
+    <string name="settings_dark_mode">Imodi emnyama</string>
+    <string name="settings_language">Ulimi</string>
+    <string name="settings_notifications">Izaziso</string>
+    <string name="settings_notifications_desc">Bonisa izexwayiso zezincomo nemiklomelo</string>
+    <string name="settings_sync">Ukuvumelanisa ungaxhumile</string>
+    <string name="settings_sync_now">Vumelanisa manje</string>
+    <string name="settings_sync_clean">Konke kuvumelanisiwe</string>
+    <string name="settings_sync_pending">Izinguquko ezingu-%1$d zilindele ukuvumelanisa</string>
+    <string name="settings_sync_offline">Awuxhumile – izinguquko ezingu-%1$d zigcinwe kule foni</string>
+    <string name="sync_done_toast">Uphinde waxhuma – izinguquko ezingu-%1$d zivumelanisiwe</string>
+    <string name="sync_nothing">Seyivuselelwe</string>
+    <string name="settings_push">Izaziso ze-push</string>
+    <string name="settings_push_desc">Ithokheni yedivayisi yakho (yisebenzise ukuthumela umyalezo wokuhlola ovela ku-Firebase console)</string>
+    <string name="settings_copy_token">Kopisha ithokheni</string>
+    <string name="settings_token_copied">Ithokheni ikopishiwe</string>
+    <string name="settings_token_loading">Iyalayisha ithokheni…</string>
+    <string name="settings_token_unavailable">Ithokheni ayitholakali (hlola uxhumo lwakho lwe-inthanethi)</string>
+    <string name="settings_account">I-akhawunti</string>
+    <string name="btn_logout">Phuma</string>
+    <string name="logout_unsynced">Unezinguquko ezingu-%1$d ezingavumelanisiwe. Zizalayishwa ngokuzayo uma ungena uxhumile. Uyaqhubeka nokuphuma?</string>
+    <string name="settings_version">Inguqulo %1$s</string>
+
+    <!-- Notifications -->
+    <string name="channel_name">Izibuyekezo ze-CinePulse</string>
+    <string name="channel_desc">Izincomo, imiklomelo nezimemezelo</string>
+    <string name="notif_new_rec_title">Isincomo esisha esivela ku-%1$s</string>
+</resources>

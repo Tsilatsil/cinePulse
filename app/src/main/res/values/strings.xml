@@ -1,3 +1,166 @@
 <resources>
-    <string name="app_name">cinePulse</string>
+    <string name="app_name" translatable="false">CinePulse</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_trending">Trending</string>
+    <string name="nav_watchlist">Watchlist</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Login / Register -->
+    <string name="login_tagline">Track. Rate. Recommend.</string>
+    <string name="login_title">Welcome back</string>
+    <string name="register_title">Create your account</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Log in</string>
+    <string name="btn_register">Register</string>
+    <string name="toggle_to_register">New here? Create an account</string>
+    <string name="toggle_to_login">Already have an account? Log in</string>
+    <string name="or_divider">or</string>
+    <string name="btn_google">Continue with Google</string>
+    <string name="err_name_short">Enter a username (at least 2 characters)</string>
+    <string name="err_email_invalid">Enter a valid email address</string>
+    <string name="err_password_short">Password must be at least 6 characters</string>
+    <string name="err_network">No internet connection. Please connect and try again.</string>
+    <string name="err_invalid_credentials">Incorrect email or password</string>
+    <string name="err_user_exists">An account with this email already exists</string>
+    <string name="err_generic">Something went wrong. Please try again.</string>
+    <string name="err_google_failed">Google sign-in failed. Please try again.</string>
+    <string name="err_google_config">Google sign-in is not set up for this build (check the SHA-1 in Firebase).</string>
+
+    <!-- Common -->
+    <string name="type_movie">Movie</string>
+    <string name="type_series">Series</string>
+    <string name="offline_banner">You are offline – showing saved data. Changes will sync when you reconnect.</string>
+    <string name="cancel">Cancel</string>
+    <string name="see_all">See all</string>
+    <string name="empty_list">Nothing to show right now. Pull down to refresh.</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_send">Send comment</string>
+    <string name="saved_offline">Saved on your phone. It will sync when you are back online.</string>
+
+    <!-- Home -->
+    <string name="home_greeting">Hi, %1$s 👋</string>
+    <string name="home_subtitle">What are we watching today?</string>
+    <string name="points_chip">⭐ %1$d pts</string>
+    <string name="search_hint">Search movies and series</string>
+    <string name="home_trending_today">Trending today</string>
+    <string name="home_top_movies">Top rated movies</string>
+    <string name="home_top_series">Top rated series</string>
+    <string name="home_popular">Popular right now</string>
+    <string name="home_community">Community picks</string>
+    <string name="home_because">Because you watched %1$s</string>
+    <string name="by_user">by %1$s</string>
+
+    <!-- Trending -->
+    <string name="trending_title">Trending now</string>
+    <string name="chip_today">Today</string>
+    <string name="chip_week">This week</string>
+    <string name="chip_all">All</string>
+    <string name="chip_movies">Movies</string>
+    <string name="chip_series">Series</string>
+    <string name="trending_cached">Showing saved results (offline)</string>
+
+    <!-- Watchlist -->
+    <string name="watchlist_title">My watchlist</string>
+    <string name="watchlist_progress">%1$d of %2$d watched</string>
+    <string name="watchlist_reward_hint">Finish your whole watchlist to earn a bonus and a fresh list of trending and similar titles!</string>
+    <string name="watchlist_empty_title">Your watchlist is empty</string>
+    <string name="watchlist_empty_body">Add movies and series you want to watch.</string>
+    <string name="btn_discover">Discover titles</string>
+    <string name="btn_mark_watched">Mark watched</string>
+    <string name="btn_watched">Watched</string>
+    <string name="btn_remove">Remove</string>
+    <string name="remove_confirm">Remove \"%1$s\" from your watchlist?</string>
+    <string name="waiting_sync">⏳ Waiting to sync</string>
+    <string name="toast_points">+%1$d points!</string>
+    <string name="toast_added_watchlist">Added to your watchlist</string>
+    <string name="toast_removed_watchlist">Removed from your watchlist</string>
+
+    <!-- Rewards -->
+    <string name="reward_title">🎉 Watchlist complete!</string>
+    <string name="reward_body">You earned %1$d points and your watchlist has been refreshed with %2$d new titles:</string>
+    <string name="reward_body_none">You earned %1$d points! Add more titles to start a new watchlist.</string>
+    <string name="reward_body_offline">You earned %1$d points! Your fresh watchlist will be created as soon as you are back online.</string>
+    <string name="reward_ok">Awesome!</string>
+    <string name="level_0">Rookie</string>
+    <string name="level_1">Movie Fan</string>
+    <string name="level_2">Film Buff</string>
+    <string name="level_3">Critic</string>
+    <string name="level_4">Cinephile</string>
+    <string name="notif_reward_title">Your new watchlist is ready 🎬</string>
+    <string name="notif_reward_body">%1$d fresh titles were added based on what you watched.</string>
+
+    <!-- Movie detail -->
+    <string name="btn_add_watchlist">Add to watchlist</string>
+    <string name="btn_remove_watchlist">Remove from watchlist</string>
+    <string name="btn_recommend">Recommend to others</string>
+    <string name="your_rating">Your rating</string>
+    <string name="tmdb_rating">TMDB rating: %1$.1f / 10</string>
+    <string name="community_rating">CinePulse community: %1$.1f ★ (%2$d ratings)</string>
+    <string name="community_none">CinePulse community: no ratings yet – be the first!</string>
+    <string name="community_offline">CinePulse community: unavailable offline</string>
+    <string name="comments_title">Comments</string>
+    <string name="comment_hint">Write a comment…</string>
+    <string name="no_comments">No comments yet. Start the conversation!</string>
+    <string name="comment_pending">⏳ Waiting to post</string>
+    <string name="err_comment_empty">Write something first</string>
+    <string name="no_overview">No description available.</string>
+    <string name="toast_rating_updated">Rating updated</string>
+    <string name="recommend_title">Recommend \"%1$s\"</string>
+    <string name="recommend_note_hint">Why should others watch it? (optional)</string>
+    <string name="recommend_btn">Recommend</string>
+    <string name="toast_recommended">Recommended! +%1$d points</string>
+
+    <!-- Search -->
+    <string name="search_prompt">Search for a movie or series</string>
+    <string name="err_query_short">Type at least 2 characters</string>
+    <string name="search_empty">No results found. Try another title.</string>
+    <string name="search_offline">Search needs an internet connection.</string>
+
+    <!-- Profile -->
+    <string name="profile_points_total">%1$d points</string>
+    <string name="profile_next_level">%1$d more points to reach %2$s</string>
+    <string name="profile_max_level">You reached the top level – legend!</string>
+    <string name="profile_stat_watched">Watched</string>
+    <string name="profile_stat_watchlist">In watchlist</string>
+    <string name="profile_stat_points">Points</string>
+    <string name="profile_earn_title">How to earn points</string>
+    <string name="profile_earn_body">⭐ Rate a title: +5\n💬 Write a comment: +10\n👍 Recommend a title: +15\n✅ Mark as watched: +10\n🏆 Finish your watchlist: +50 and a fresh list!</string>
+    <string name="btn_settings">Settings</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_dark_mode">Dark mode</string>
+    <string name="settings_language">Language</string>
+    <string name="lang_english" translatable="false">English</string>
+    <string name="lang_afrikaans" translatable="false">Afrikaans</string>
+    <string name="lang_zulu" translatable="false">isiZulu</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_desc">Show alerts for recommendations and rewards</string>
+    <string name="settings_sync">Offline sync</string>
+    <string name="settings_sync_now">Sync now</string>
+    <string name="settings_sync_clean">Everything is synced</string>
+    <string name="settings_sync_pending">%1$d change(s) waiting to sync</string>
+    <string name="settings_sync_offline">Offline – %1$d change(s) saved on this phone</string>
+    <string name="sync_done_toast">Back online – synced %1$d change(s)</string>
+    <string name="sync_nothing">Already up to date</string>
+    <string name="settings_push">Push notifications</string>
+    <string name="settings_push_desc">Your device token (use it to send a test message from the Firebase console)</string>
+    <string name="settings_copy_token">Copy token</string>
+    <string name="settings_token_copied">Token copied</string>
+    <string name="settings_token_loading">Loading token…</string>
+    <string name="settings_token_unavailable">Token unavailable (check your internet connection)</string>
+    <string name="settings_account">Account</string>
+    <string name="btn_logout">Log out</string>
+    <string name="logout_unsynced">You have %1$d unsynced change(s). They will upload the next time you log in while online. Log out anyway?</string>
+    <string name="settings_version">Version %1$s</string>
+
+    <!-- Notifications -->
+    <string name="channel_name">CinePulse updates</string>
+    <string name="channel_desc">Recommendations, rewards and announcements</string>
+    <string name="notif_new_rec_title">%1$s recommends a title</string>
 </resources>

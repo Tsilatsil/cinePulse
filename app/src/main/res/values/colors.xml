@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <!-- CinePulse palette: LIGHT mode -->
+    <color name="cp_bg">#F6F4FA</color>
+    <color name="cp_surface">#FFFFFF</color>
+    <color name="cp_surface_alt">#ECE8F5</color>
+    <color name="cp_primary">#6D3FF0</color>
+    <color name="cp_on_primary">#FFFFFF</color>
+    <color name="cp_accent">#F5A623</color>
+    <color name="cp_on_accent">#1B1530</color>
+    <color name="cp_text">#1B1530</color>
+    <color name="cp_text_dim">#6B6482</color>
+    <color name="cp_outline">#D4CEE6</color>
+    <color name="cp_error">#C62828</color>
+    <color name="cp_success">#2E9E5B</color>
+    <color name="cp_offline_bg">#FFE0B2</color>
+    <color name="cp_offline_text">#7A4300</color>
+    <color name="cp_container">#E6DEFF</color>
+
     <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
 </resources>

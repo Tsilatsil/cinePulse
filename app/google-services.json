@@ -1,26 +1,44 @@
 {
   "project_info": {
-    "project_number": "445198275569",
-    "project_id": "cinepulse-515fd",
-    "storage_bucket": "cinepulse-515fd.firebasestorage.app"
+    "project_number": "123909446122",
+    "project_id": "cinepulse-f1575",
+    "storage_bucket": "cinepulse-f1575.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:445198275569:android:9fe0aecd28ad2afc272a50",
+        "mobilesdk_app_id": "1:123909446122:android:89789dfc12082d20c1ba93",
         "android_client_info": {
-          "package_name": "com.cinepulse.app"
+          "package_name": "com.example.cinepulse"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "123909446122-merv68cug4062spl4ninmv6qo8otisns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cinepulse",
+            "certificate_hash": "7c2193fe0a53048999f6b59c5d6a3623a6342c68"
+          }
+        },
+        {
+          "client_id": "123909446122-tjoro4136mcob4cn6mgt9n3jkbresck7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyC4dhpYKCYMyLpTzT9xpwO5yUuWsIrOFWQ"
+          "current_key": "AIzaSyBfmu77__NXqEtmMkRRgu500ifrx8AEBs8"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123909446122-tjoro4136mcob4cn6mgt9n3jkbresck7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
